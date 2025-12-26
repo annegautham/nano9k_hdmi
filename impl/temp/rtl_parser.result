@@ -1,0 +1,52 @@
+[
+ {
+  "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+  "InstLine" : 1,
+  "InstName" : "hdmi_top",
+  "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+  "ModuleLine" : 1,
+  "ModuleName" : "hdmi_top",
+  "SubInsts" : [
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+    "InstLine" : 13,
+    "InstName" : "your_pll_inst",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/gowin_rpll/gowin_rpll.v",
+    "ModuleLine" : 10,
+    "ModuleName" : "Gowin_rPLL"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+    "InstLine" : 41,
+    "InstName" : "u_timing",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/video_timing.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "video_timing"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+    "InstLine" : 54,
+    "InstName" : "enc_r",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/tmds_encoder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tmds_encoder"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+    "InstLine" : 55,
+    "InstName" : "enc_g",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/tmds_encoder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tmds_encoder"
+   },
+   {
+    "InstFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/hdmi_top.v",
+    "InstLine" : 56,
+    "InstName" : "enc_b",
+    "ModuleFile" : "C:/Gowin/Gowin_V1.9.11.03_Education_x64/IDE/bin/Documents/nano9k_hdmi/src/tmds_encoder.v",
+    "ModuleLine" : 1,
+    "ModuleName" : "tmds_encoder"
+   }
+  ]
+ }
+]

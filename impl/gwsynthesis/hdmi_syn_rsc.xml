@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module name="hdmi_top" Lut="4" T_Register="53(0)" T_Alu="14(0)" T_Lut="110(4)">
+ <SubModule name="your_pll_inst"/>
+ <SubModule name="u_timing" Register="27" Lut="39" T_Register="27(27)" T_Lut="39(39)"/>
+ <SubModule name="enc_r" Register="9" Alu="5" Lut="25" T_Register="9(9)" T_Alu="5(5)" T_Lut="25(25)"/>
+ <SubModule name="enc_g" Register="7" Alu="4" Lut="14" T_Register="7(7)" T_Alu="4(4)" T_Lut="14(14)"/>
+ <SubModule name="enc_b" Register="10" Alu="5" Lut="28" T_Register="10(10)" T_Alu="5(5)" T_Lut="28(28)"/>
+</Module>

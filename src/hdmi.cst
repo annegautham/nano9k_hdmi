@@ -1,0 +1,20 @@
+// --- Clock and Reset (Bank 3 - 1.8V) ---
+IO_LOC "clk_27m" 52;
+IO_PORT "clk_27m" IO_TYPE=LVCMOS18; 
+
+IO_LOC "rst_n" 4;
+IO_PORT "rst_n" IO_TYPE=LVCMOS18;
+
+// --- HDMI Lanes (Bank 1/2 - 1.8V Differential) ---
+// Explicitly setting IO_TYPE to LVCMOS18D to match locked Bank voltage
+IO_LOC "tmds_clk_p" 69,68;
+IO_PORT "tmds_clk_p" IO_TYPE=LVCMOS18D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "tmds_d_p[0]" 71,70;
+IO_PORT "tmds_d_p[0]" IO_TYPE=LVCMOS18D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "tmds_d_p[1]" 73,72;
+IO_PORT "tmds_d_p[1]" IO_TYPE=LVCMOS18D PULL_MODE=NONE DRIVE=8;
+
+IO_LOC "tmds_d_p[2]" 75,74;
+IO_PORT "tmds_d_p[2]" IO_TYPE=LVCMOS18D PULL_MODE=NONE DRIVE=8;
